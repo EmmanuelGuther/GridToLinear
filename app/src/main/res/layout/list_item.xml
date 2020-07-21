@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/margin_normal"
-    android:layout_marginRight="@dimen/margin_normal"
-    android:onClick="@{clickListener}">
+    android:layout_marginRight="@dimen/margin_normal">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clImage"
@@ -38,7 +36,6 @@
             android:paddingTop="@dimen/margin_small"
             android:paddingRight="@dimen/margin_normal"
             android:paddingBottom="@dimen/margin_small"
-            android:text="@{superheroItem.name}"
             android:textAppearance="?attr/textAppearanceListItem"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/image"
