@@ -1,0 +1,3 @@
+include ':gridtolinear'
+include ':app'
+rootProject.name = "GridToLinear"

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GridToLinear</string>
+    <string name="grid" translation_description="Common Filter">Switch between grid and list</string>
+
+</resources>
