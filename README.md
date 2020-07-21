@@ -3,7 +3,11 @@
 # GridToLinear
 An android library that allows you to change a recyclerview from list mode to grid mode.
 
+![](20200721_104412.gif)
 
+
+
+If you want to be able to change the way of showing your recyclerview from list to grid mode, with very few lines of code it is possible. You will also have to have added a button in your toolbar and created a menu, in the example is everything.
 
 
 
